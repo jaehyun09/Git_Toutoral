@@ -10,3 +10,10 @@
 아ㅏㅏ
 아ㅏ
 ㅏ
+public class UserController {
+	@RequestMapping("/user/login.do")
+	public String login() {
+		logger.info("login => login");
+	return "user/login";
+	
+}
